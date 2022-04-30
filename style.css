@@ -1,0 +1,130 @@
+.btn {
+  border-radius: 5px;
+  text-align: center;
+
+}
+
+
+
+.navbar-brand {
+  color: rgb(0, 0, 0) !important;
+  font-size: 24px;
+}
+
+.nav-link {
+  color: rgb(0, 0, 0) !important;
+}
+
+
+
+.tombol {
+  border-radius: 45px;
+
+}
+
+.jumbotron {
+  background-image: url(gambar/jumbotron-bg.jpg);
+  background-size: cover;
+  height: 640px;
+}
+
+
+.info-panel {
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5) !important;
+  border-radius: 12px;
+  background-color: white;
+  padding: 30px;
+  margin: auto;
+  margin-top: -100px;
+}
+
+.info-panel a span {
+  margin-top: 3px;
+  margin-top: 3px;
+  color: black;
+  text-shadow: -1px -1px -15px rgb(255, 253, 253);
+}
+
+.info-panel a span i {
+  margin-right: 15px;
+}
+
+.info-panel a span h4 {
+  font-size: 18px;
+  text-decoration: solid;
+  text-align: center;
+}
+
+.info-panel a span p {
+  font-size: 14px;
+  text-align: center;
+}
+
+
+
+
+
+.jumbotron .display-5 {
+  color: white;
+  text-align: center;
+  margin-top: 175px;
+  font-weight: 75;
+  text-shadow: 1px 1px 15px rgba(0, 0, 0, 1.95);
+
+}
+
+.jumbotron .display-5 span {
+  font-weight: 400;
+  text-shadow: 1px 1px 15px rgba(0, 0, 0, 1.95);
+  color: #ffc107;
+
+}
+
+@media (min-width: 992px) {
+  .jumbotron {
+    margin-top: -75px;
+  }
+
+  .nav-link {
+    margin-right: 30px;
+    font-size: 18px;
+    color: white !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.95);
+  }
+
+  .navbar-brand {
+    color: white !important;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 5.95) !important;
+  }
+
+
+
+}
+
+
+@media (min-width: 992px) {
+  .nav-link :hover::after {
+    display: block;
+    content: '';
+    border-bottom: 3px solid #ffc107;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+
+
+}
+
+@media (min-width: 1200px) {
+  .nav-item :hover::after {
+    display: block;
+    content: '';
+    border-bottom: 3px solid #ffc107;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+}
